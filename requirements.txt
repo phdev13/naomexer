@@ -1,25 +1,19 @@
 fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
-
-# Instalar direto do GitHub para evitar erro de build
 git+https://github.com/openai/whisper.git
-
 torch>=2.2.0
 numpy>=1.26.0
 ffmpeg-python==0.2.0
 textblob==0.18.0
-
 google-api-python-client==2.108.0
 google-auth-oauthlib==1.1.0
 google-auth-httplib2==0.1.1
 isodate==0.6.1
-
 browser-cookie3==0.19.1
-faster-whisper==0.10.0       # coloquei uma versão estável
-beautifulsoup4==4.12.3       # última versão estável
-psutil==5.9.8                # última versão estável
-pytube==15.0.0               # última versão estável
-itsdangerous==2.1.2          # última versão estável
+beautifulsoup4==4.12.3
+psutil==5.9.8
+pytube==15.0.0
+itsdangerous==2.1.2
 python-jose[cryptography]==3.3.0
-yt-dlp==2024.05.27           # data da última versão estável
+yt-dlp==2024.05.27
