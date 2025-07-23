@@ -9,6 +9,8 @@ from typing import List, Optional
 from pathlib import Path
 import os,json,time,uuid,asyncio,logging,tempfile,subprocess,threading,shutil,concurrent.futures,psutil,torch
 from faster_whisper import WhisperModel
+from fastapi import FastAPI
+
 
 # --- Modelos Pydantic para Validação de Requisições ---
 
