@@ -330,6 +330,5 @@ async def get_available_languages():
 # --- Execução da Aplicação ---
 if __name__ == "__main__":
     import uvicorn
-    # Altere "main:app" se o seu arquivo for salvo com um nome diferente de 'main.py'
     port = int(os.environ.get("PORT", 8000))
     uvicorn.run("app:app", host="0.0.0.0", port=port, reload=True)
